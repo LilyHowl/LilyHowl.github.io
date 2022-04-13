@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lilykoi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="roster" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">supports</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">progress</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Lilykoi</h1>
+        <h2>Software Developer & Disney TWST Fan </h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">supports</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+       <!-- 
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table>--> 
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>supports.</h1>
+        <p>(Updated: April 13, 2022) <br> Please contact Lilykoi#3864 on Discord for support changes!</p>
+        <section>
+            <h2>Dorm Azul / Lvl 90</h2>
+            <div class="row">
+                <div class="column">
+                  <img src="assets/azul1.jpg" style="width:90%">
+                </div>
+                <div class="column">
+                  <img src="assets/azul2.jpg" style="width:90%">
+                </div>
+              </div>
+            <h1></h1>
+            <h2>Dorm Leona / Lvl 85</h2>
+            <div class="row">
+                <div class="column">
+                  <img src="assets/leona1.jpg" style="width:90%">
+                </div>
+                <div class="column">
+                  <img src="assets/leona2.jpg" style="width:90%">
+                </div>
+              </div>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about.</h1>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    My IGN is Lilykoi. I am a 21f up-and-coming software developer who loves gacha games, particularly Twisted Wonderland. I grew up with Disney and miss the nostalgia from my childhood. Also, I like pretty boys. My favorites are Jack and Malleus. Secondary favorites include Deuce, Leona, and Idia!
+                </p>
+                <p>
+                    I play both NA and JP. While I began playing Twisted Wonderland NA on Feb. 14, 2022 (stay-at-home Valentine's Day), I acquired my JP account via gametrade.jp on April 10, 2022. It's nice to not have to wait around for my favorite cards to release; however, I still consider NA my main account. I use this website to document everything about my progress -- just for fun!
+                </p>
+                <p>
+                    NA: HURRYK9D <br>
+                    JP: MWRanYk9
+                </p>
+                <p>
+                    Thank you for visiting and feel free to have a look around!
+                </p>
+                <h1></h1>
+                <img src="assets/NAstart.jpg">
+                <p style="text-align: center">
+                    I picked Jack as my first SR because he reminded me of my dog. It wasn't until I read the story that I came to admire his work ethic, strong sense of justice, and loyalty. I also chose Malleus for my third SR because he is TWST's poster boy. So yeah, pretty shallow reasons. 
+                 </p>
+                 <h1></h1>
+                <img src="assets/JPstart.jpg">
+                <p>
+                    Because I acquired my JP account from a third-party, I actually had no idea who the starter summons were. To my surprise, it was Jack! As well as the whole Savanaclaw crew. I'm also quite happy that the eel twins are back to back.
+                </p>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>progress.</h1>
+            <section>
+                <h2>current (updated: April 12, 2022)</h2>
+                <img src="assets/NAcurrent.jpg">
+                <p style="text-align: center">
+                   my NA account
+                </p>
+                <img src="assets/JPcurrent.jpg">
+                <p style="text-align: center">
+                   my JP account
+                </p>
+            </section>
+            <section>
+                <h2>BeanFest: Survival of the Beanest</h2>
+                <img src="assets/jacktitle.jpg">
+                <img src="assets/beans.jpg">
+                <p style="text-align: center">
+                   I sadly forgot to take a screenshot of all my beans. All I have is a cute picture of summoning Jack for the first time! I did clear most of the shop besides R Cater. Those R perfumes really add up.
+                 </p>
+            </section>
+            <section>
+                <h2>Culinary Crucible: Raising the Steaks</h2>
+                <img src="assets/cooking.jpg">
+                <img src="assets/cookingSR.jpg">
+                <p style="text-align: center">
+                    As this was the first event, I went crazy with it! After about 12 days, I did about 500 20-minute expeditions. It was spring break, so I only had my part-time WFH job. And yes, I did end up losing quite a bit of sleep over this. For my efforts, the gacha blessed me with Azul and Leona.
+                </p>
+            </section>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
