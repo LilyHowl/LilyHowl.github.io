@@ -14,7 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:#62a070;
+    background:#262d4d;
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid #62a070;
+    border-bottom:12px solid #262d4d;
     border-radius:50%;
     margin:0;
 }
@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:#62a070;
+    background:#262d4d;
 }
 .box2 {
-    background:#62a070;
+    background:#262d4d;
     margin-left:-5px;
 }
 #menu {
@@ -75,11 +75,14 @@ img {
 }
 
 .row {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    width: 80%;
   }
   
   .column {
-    flex: 75%;
+    flex: 100%;
   }
 
 #middle {
@@ -154,15 +157,15 @@ img {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:#62a070;
+    background:#262d4d;
     cursor:pointer;
 }
 #roster:hover {
-    background:#62a070;
+    background:#262d4d;
     cursor:pointer;
 }
 #contact:hover {
-    background:#62a070;
+    background: #262d4d;
     cursor:pointer;
 }
 #middle table {
@@ -188,7 +191,7 @@ img {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:#62a070;
+    background:#262d4d;
     color:#fff;
     z-index:9;
     position:fixed;
@@ -327,10 +330,10 @@ img {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: #62a070; 
+    background: #0f111e; 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #62a070; 
+    background: #0f111e; 
 }
 ::selection {
 	color: #fff;
